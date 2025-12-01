@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+/* Load Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+/* Tailwind 4 Theme Variables */
+@theme {
+  --font-sans: Inter, system-ui, sans-serif;
+
+  --color-primary: #2b869c;
+  --color-secondary: #070a3a;
+  --color-accent: #1e2049;
+  --color-light: #dee4e6;
+  --color-gray-custom: #737a92;
+}
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-sans);
+  line-height: 1.6;
+}
+
+html {
+  scroll-behavior: smooth;
+}
